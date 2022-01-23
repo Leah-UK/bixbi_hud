@@ -1,0 +1,244 @@
+body {
+    overflow: hidden;
+    height:100%;
+    width:100%;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* left: 1.01%; */
+    /* left: 0.5%; */
+    bottom: 0.04vh;
+}
+
+p {
+  /* padding : 0; */
+  margin : 2;
+}
+
+/* br { font-size: 50%; } */
+
+.radioUsers {
+  float: right;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+  font-size: 1.45vh;
+  text-align: right;
+  background-color: #11151862;
+  overflow: hidden;
+  
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  text-shadow: 0.2vh 0.2vh 0vh rgb(22, 22, 22);
+}
+
+.circles {
+    position: absolute;
+    bottom: 0vh;
+    /* left: 0.1vh; */
+    /* left: 1.01%; */
+    width: 100%;
+}
+
+.BaseCircle {
+    position: relative;
+    /* width: 40px !important; */
+    width: 4vh !important;
+    /* height: 40px !important; */
+    height: 4vh !important;
+    margin: 0.3vh;
+    float: left;
+    border-radius: 50%;
+    background: rgba(49, 49, 49, 0.7);
+    text-shadow: 0.2vh 0.2vh 0vh rgb(22, 22, 22);
+}
+
+#vehContainer {
+  position: relative;
+  width: 250px;
+  height: 100%;
+  margin: auto;
+  bottom: 0vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.barContainer {
+  position: absolute;
+  bottom: 3.5%;
+  left: 50%;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  transform: translate(-50%, -25%);
+  float: left;
+  /* background-color: #11151862; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* padding: 2px; */
+}
+
+.speedBar {
+  float: left;
+  width: calc(100% - 0.2vh);
+  height: 50%;
+  overflow: hidden;
+  bottom: 50%;
+  border: 1px inset black;
+  margin-right: -0.1vh;
+  background-color: #11151862;
+
+  /* font-size: 1.5vh;
+  text-align: center; */
+  /* position: inherit; */
+  /* color: white;
+  font-family: "Exo 2", sans-serif; */
+  text-shadow: 0.2vh 0.2vh 0vh rgb(22, 22, 22);
+}
+
+.fuelBar {
+  float: left;
+  width: calc(100% - 0.2vh);
+  height: 20%;
+  overflow: hidden;
+  bottom: 50%;
+  border: 1px solid black;
+  margin-right: -0.1vh;
+  margin-top: -1px;
+  background-color: #ffffff46;
+}
+
+#SpeedIndicator {
+  background-color: #285c8562;
+  height: 100%;
+  width: 100%;
+}
+#FuelIndicator {
+  background-color: #285c8562;
+  height: 100%;
+  width: 100%;
+}
+
+.fa-heart,
+.fa-shield-alt,
+.fa-skull
+{
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.2vh;
+  bottom: 1.2vh;
+}
+
+.fa-hamburger
+{
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.2vh;
+  bottom: 1.25vh;
+}
+
+.fa-gas-pump
+{
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.3vh;
+  bottom: 1.25vh;
+}
+
+.fa-coins,
+.fa-university,
+.fa-car,
+.fa-briefcase {
+color: white;
+position: absolute;
+font-size: 1.6vh;
+left: 0.75vh;
+bottom: 0.75vh;
+}
+
+.fa-running {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.4vh;
+  bottom: 1.2vh;
+}
+
+.fa-headset {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.3vh;
+  bottom: 1.25vh;
+  }
+
+.fa-lungs {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1vh;
+  bottom: 1.35vh;
+}
+
+.fa-tint {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.45vh;
+  bottom: 1.2vh;
+}
+
+.fa-align-justify  {
+  color: white;
+  position: absolute;
+  font-size: 1.7vh;
+  left: 1.2vh;
+  bottom: 1.2vh;
+}
+
+.fa-microphone {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.4vh;
+  bottom: 1.25vh;
+  }
+
+.fa-mask {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 0.5vh;
+  bottom: 0.75vh;
+}
+
+.fa-wallet {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 0.75vh;
+  bottom: 0.75vh;
+}
+
+.fa-user-slash,
+.fa-terminal {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1vh;
+  bottom: 1.2vh;
+}
+
+.fa-tachometer-alt {
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.1vh;
+  bottom: 1.3vh;
+}
