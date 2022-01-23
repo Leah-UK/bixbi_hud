@@ -5,7 +5,7 @@ fx_version 'cerulean'
 game 'gta5'
 author 'Leah#0001'
 version '1.0.0'
--- versioncheck 'https://raw.githubusercontent.com/Leah-UK/FiveM-Script-Versioning/main/bixbi_hud.lua'
+versioncheck 'https://raw.githubusercontent.com/Leah-UK/bixbi_hud/main/fxmanifest.lua'
 lua54 'yes'
 
 shared_scripts {
