@@ -142,6 +142,16 @@ p {
   bottom: 1.25vh;
 }
 
+.fa-brain
+{
+  color: white;
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.2vh;
+  bottom: 1.25vh;
+}
+
+
 .fa-gas-pump
 {
   color: white;

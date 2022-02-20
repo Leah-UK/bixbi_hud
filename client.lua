@@ -39,7 +39,7 @@ function LoopFunc()
   Citizen.Wait(0)
   SetRadarBigmapEnabled(false, false)
   
-  local hunger, thirst = 0, 0
+  local hunger, thirst, stress = 0, 0, 0
   SendNUIMessage({action = "show_ui", type = "ui", enable = true})
   SendNUIMessage({action = "show_ui", type = "voice", enable = Config.EnableVoiceBox})
   SendNUIMessage({action = "vehicle_hud"})
@@ -62,6 +62,7 @@ function LoopFunc()
 
       TriggerEvent('esx_status:getStatus', 'hunger', function(status) hunger = status.val / 10000 end)
       TriggerEvent('esx_status:getStatus', 'thirst', function(status) thirst = status.val / 10000 end)
+      TriggerEvent('esx_status:getStatus', 'stress', function(status) stress = status.val / 10000 end)
     
       -- local inVehicleCheck = IsPedInAnyVehicle(playerPed, false)
       -- if (inVehicleCheck ~= inVehicle) then
@@ -99,6 +100,7 @@ function LoopFunc()
           armour = GetPedArmour(playerPed),
           hunger = hunger or 0,
           thirst = thirst or 0,
+          stress = stress or 0,
           stamina = (100 - GetPlayerSprintStaminaRemaining(playerID)) or 100,
           oxygen = oxygenValue,
           talking = NetworkIsPlayerTalking(playerID)
