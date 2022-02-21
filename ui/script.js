@@ -44,6 +44,15 @@ $(document).ready(function () {
       duration: 250,
       easing: "easeInOut",
     });
+
+    StressCircle = new ProgressBar.Circle("#StressCircle", {
+        color: "#FF0000",
+        trailColor: "#A50F00",
+        strokeWidth: 12,
+        trailWidth: 12,
+        duration: 250,
+        easing: "easeInOut",
+    });
   
     StaminaCircle = new ProgressBar.Circle("#StaminaCircle", {
       color: "#FFFF00",
